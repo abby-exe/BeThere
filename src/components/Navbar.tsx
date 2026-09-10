@@ -18,7 +18,6 @@ export function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4 sm:px-6">
       <nav className="mx-auto flex max-w-6xl items-center justify-between rounded-2xl border border-ink/10 bg-cream/90 px-4 py-3 shadow-[0_8px_30px_rgba(48,58,50,0.06)] backdrop-blur-md sm:px-5">
         <a href="#home" onClick={close} className="flex items-center gap-2.5" aria-label="BeThere home">
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-ink text-sm font-bold tracking-tight text-cream">B</span>
           <span className="font-display text-xl font-semibold tracking-tight text-ink">Be<span className="text-cocoa">There</span></span>
         </a>
 
@@ -55,7 +54,6 @@ export function Navbar() {
             ))}
             <div className="mt-2 grid grid-cols-2 gap-2 border-t border-ink/10 pt-3">
               <a href={SITE.instagramUrl} className="inline-flex items-center justify-center gap-2 rounded-xl border border-ink/15 py-3 text-sm font-semibold"><Instagram size={16}/> Instagram</a>
-              <a href={SITE.requestFormUrl} className="inline-flex items-center justify-center gap-2 rounded-xl bg-ink py-3 text-sm font-semibold text-cream">Request <ArrowUpRight size={15}/></a>
             </div>
           </div>
         </div>
