@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Instagram, Menu, X, ArrowUpRight } from 'lucide-react'
+import { Instagram, Menu, X } from 'lucide-react'
 import { SITE } from '../config'
 
 const links = [
@@ -30,9 +30,6 @@ export function Navbar() {
         <div className="hidden items-center gap-2 md:flex">
           <a href={SITE.instagramUrl} className="inline-flex items-center gap-2 rounded-full px-3 py-2 text-sm font-medium text-ink/70 transition hover:bg-ink/5 hover:text-ink">
             <Instagram size={16} /> Instagram
-          </a>
-          <a href={SITE.requestFormUrl} className="inline-flex items-center gap-2 rounded-full bg-ink px-4 py-2.5 text-sm font-semibold text-cream transition hover:-translate-y-0.5 hover:bg-sage">
-            Request <ArrowUpRight size={15} />
           </a>
         </div>
 
