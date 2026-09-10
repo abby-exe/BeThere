@@ -23,9 +23,6 @@ export function Hero() {
             <a href={SITE.requestFormUrl} className="inline-flex items-center justify-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-semibold text-cream shadow-lg shadow-ink/10 transition hover:-translate-y-0.5 hover:bg-sage">
               Request Companionship <ArrowUpRight size={17}/>
             </a>
-            <a href={SITE.instagramUrl} className="inline-flex items-center justify-center rounded-full border border-ink/15 bg-white/30 px-6 py-3.5 text-sm font-semibold text-ink transition hover:bg-white/70">
-              Message on Instagram
-            </a>
           </div>
           <a href="#about" className="mt-12 inline-flex items-center gap-2 text-sm font-medium text-ink/45 transition hover:text-ink">
             Learn why BeThere exists <ArrowDown size={15}/>
